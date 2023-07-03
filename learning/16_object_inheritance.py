@@ -28,6 +28,8 @@ carnelian = Grapes('purple', 'sweet')
 print("Grenny Smith apples are {} and {}".format(granny_smith.color, granny_smith.flavor))
 print("Carnelian grapes are {} and {}".format(carnelian.color, carnelian.flavor))
 
+"""Animal Class"""
+
 
 class Animal:
     sound = ""
@@ -42,16 +44,25 @@ class Animal:
         print("{sound} I'm {name}! {sound}".format(sound=self.sound, name=self.name))
 
 
+"""Piglet class inherited from Animal Class"""
+
+
 class Piglet(Animal):
     sound = "Oink!"
+
+
+"""Cow class inherited from Animal class"""
 
 
 class Cow(Animal):
     sound = "Moooooo!"
 
 
+"""Creating object of Piglet class"""
 hamlet = Piglet("Hamlet")
 hamlet.speak()
 
+
+"""Creating object of Cow class"""
 milky = Cow("Milky-White")
 milky.speak()
