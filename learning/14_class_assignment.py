@@ -18,7 +18,8 @@ martin.ideas = 1
 
 
 def exchange_apples(you, me):
-    # Here, despite G.B. Shaw's quote, our characters have started with       #different amounts of apples so we can better observe the results.
+    # Here, despite G.B. Shaw's quote, our characters have started with
+    # different amounts of apples so we can better observe the results.
     # We're going to have Martin and Johanna exchange ALL their apples with #one another.
     # Hint: how would you switch values of variables,
     # so that "you" and "me" will exchange ALL their apples with one another?
