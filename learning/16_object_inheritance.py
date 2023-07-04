@@ -98,19 +98,17 @@ class Clothing:
 
 class Shirt(Clothing):
     material = "Cotton"
+
+
 class Pants(Clothing):
     material = "Cotton"
+
 
 polo = Shirt("Polo")
 sweatpants = Pants("Sweatpants")
 
-polo.add_item(polo.name,polo.material,4)
-sweatpants.add_item(sweatpants.name,sweatpants.material,6)
+polo.add_item(polo.name, polo.material, 4)
+sweatpants.add_item(sweatpants.name, sweatpants.material, 6)
 
 current_stock = polo.stock_by_material("Cotton")
 print(current_stock)
-
-
-
-
-
