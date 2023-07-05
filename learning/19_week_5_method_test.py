@@ -35,8 +35,17 @@ elevator = Elevator(-1, 10, 0)
 elevator.up()
 elevator.current  # should output 1
 
+print(elevator.current)
+
 elevator.down()
 elevator.current  # should output 0
+print(elevator.current)
+
+elevator.go_to(10)
+print(elevator.current)
+
+
+
 
 elevator.go_to(10)
 elevator.current  # should output 10
